@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#tradingview_40b85 {
+    width: 150vh;
+    height: 70vh;
+    padding-left: 230px;
+    padding-top: 300px;
+    
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+    padding:  1rem 1rem;
+  }
+  
+  a:hover {
+    background-color: rgb(43, 43, 43);
+  }
+
+
+  
